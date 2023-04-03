@@ -2,6 +2,10 @@ This reproducer needs a docker environment. For podman use env varialbes like:
 DOCKER_HOST=unix:///run/user/<userId>/podman/podman.sock;TESTCONTAINERS_RYUK_DISABLED=true
 
 use the scripts request.sh and caller.sh to run request. You could use xargs instead of parallel.
+Start via
+```shell script
+./mvnw compile quarkus:dev
+```
 
 # code-with-quarkus
 
